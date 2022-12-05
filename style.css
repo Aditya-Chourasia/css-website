@@ -131,8 +131,7 @@ hr {
   }
 
   .cloudone {
-    left: -25% !important;
-    top: 2% !important;
+    display: none;
   }
 
   .cloudtwo {
