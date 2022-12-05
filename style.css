@@ -6,6 +6,7 @@
 
 #hero {
   background-color: #e0ebe8;
+  overflow: hidden;
   text-align: center;
   padding: 10%;
   padding-bottom: 0;
