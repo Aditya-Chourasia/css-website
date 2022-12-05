@@ -123,42 +123,44 @@ hr {
   }
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 929px) {
   .cloudone {
-    left: -25%;
-    top: 2%;
+    left: -25% !important;
+    top: 2% !important;
   }
 
   .cloudtwo {
-    right: -25%;
+
+    margin-right: -25%;
     top: 10%;
   }
 
   .land {
-    position: relative;
-    width: 100%;
-    bottom: -10px;
+    position: relative !important;
+    width: 100% !important;
+    bottom: -10px !important;
   }
 
   #hero {
-    padding: 10% 1% 1%;
+    padding: 10% 1% 1% !important;
   }
 
   #about p {
-    width: 60%;
+    width: 60% !important;
   }
 
   #work {
-    margin: 10% 1%;
-    width: 100%;
-    text-align: center;
+    margin: 10% 1% !important;
+    width: 100% !important;
+    text-align: center !important;
   }
 
   #work td:nth-child(1) {
-	display: none;
+	display: none !important;
   }
 
   #work p {
-	width: 100%;
+	width: 100% !important;
   }
 }
