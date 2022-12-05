@@ -125,15 +125,17 @@ hr {
 
 
 @media screen and (max-width: 929px) {
+  body {
+    width: 100% !important;
+  }
+
   .cloudone {
     left: -25% !important;
     top: 2% !important;
   }
 
   .cloudtwo {
-
-    margin-right: -25%;
-    top: 10%;
+    display: none;
   }
 
   .land {
